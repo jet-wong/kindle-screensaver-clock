@@ -1,5 +1,7 @@
 # Kindle PW2 屏保时钟（kindle-clock）
 
+中文 | [English](README.en.md)
+
 在越狱 Kindle Paperwhite 2（758×1024 e-ink）上，把「时间 / 公历 / 农历+干支 / 节气 / 诗词 / 英文短句」渲染成屏保图，由 linkss 屏保 hack 显示。
 
 **锁屏即见时钟，休眠期间时间照常走动。**
@@ -19,6 +21,7 @@
 ```
 kindle-clock/
 ├── README.md
+├── README.en.md                 英文版说明
 ├── preview.png                  效果图
 └── clock/                       ← 整个目录拷到设备的 /mnt/us/clock/
     ├── kindle_clock.py          渲染主程序（758×1024 PNG，农历/干支/节气/诗词排版）
